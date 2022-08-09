@@ -1,0 +1,120 @@
+/* //////////////////////////////////////////////////// */
+/* /////////////////// VARIABLES ///////////////////// */
+/* ////////////////////////////////////////////////// */
+
+:root {
+    --principal: #e67136;
+    --principalHover: #c55015;
+    --fondoDeSeccion: #F5F4F4;
+    --fondoFooter: #335155;
+}
+
+/* //////////////////////////////////////////////////// */
+/* //////////////////// FUENTE /////////////////////// */
+/* ////////////////////////////////////////////////// */
+
+html {
+    font-size: 20px;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* //////////////////// COLORES ////////////////////// */
+/* ////////////////////////////////////////////////// */
+
+
+.bg-primary {
+    background-color: var(--principal)!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--principal)!important;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: var(--principalHover)!important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgb(203 102 5 / 68%)!important;
+}
+
+.text-primary {
+    color: var(--principal)!important;
+}
+
+.bg-secondary {
+    background-color: var(--fondoDeSeccion)!important;
+}
+
+.bg-info {
+    background-color: var(--fondoFooter)!important;
+}
+
+
+
+/* //////////////////////////////////////////////////// */
+/* /////////////////// NAVEGACION //////////////////// */
+/* ////////////////////////////////////////////////// */
+
+
+.nav-icon {
+    height: 40px;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 2px solid #244439;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* ////////////////////// CARDS ////////////////////// */
+/* ////////////////////////////////////////////////// */
+
+.card img {
+    width: 125px;
+    height: 150px;
+}
+
+.beneficios-2 img {
+    width: 216px;
+    height: 136px;
+}
+
+.card:hover {
+    box-shadow: 0 0 12px #0c0c0c3b;
+}
+
+/* //////////////////////////////////////////////////// */
+/* ///////////////////// FOOTER ////////////////////// */
+/* ////////////////////////////////////////////////// */
+
+footer li {
+    list-style: none;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* //////////////MEDIA QUERY PARA NAVBAR ///////////// */
+/* ////////////////////////////////////////////////// */
+
+
+@media (min-width: 991px) {
+    .navbar-nav {
+        margin-inline-start: 220px;
+    }
+
+    .navbar-nav li {
+        padding-inline: 20px;
+    }
+
+}
